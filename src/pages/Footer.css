@@ -1,0 +1,66 @@
+.bg-footer{
+    background: #000000;
+    color: #f7f7f7;
+}
+
+.meta-margin{
+    margin-left: 70px;
+}
+
+.footer-con1{
+    width: 35%;
+}
+
+.footer-con2{
+    width: 65%;
+}
+
+
+.footer-meta{
+    /* color: #f7f7f7; */
+    width: 42px;
+    height: 40px;
+}
+
+.footer-meta1{
+    /* color: #f7f7f7; */
+    width: 120px;
+    height: 30px;
+}
+
+.fb{
+    margin-left: 35px;
+}
+
+
+@media screen and (max-width: 680px){
+
+    .meta-margin{
+        margin-left: 5px;
+    }
+
+    .footer-meta{
+        width: 200px;
+        /* height: 30px; */
+    }
+    
+    .footer-meta1{
+        width: 120px;
+        height: 30px;
+    }
+
+    .fb{
+        height: 15px;
+        margin-left: 15px;
+    }
+
+    .footer-con1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .footer-con2{
+        width: 100%;
+    }
+    
+}
