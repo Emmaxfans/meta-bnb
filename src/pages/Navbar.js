@@ -3,7 +3,7 @@ import '../pages/Navbar.css';
 
 const Navbar = () =>{
     return(
-        <div>
+<div className='container-fluid'>
 <div>
 <nav className="navbar navbar-expand-lg navbar-light">
 <div className="container-fluid">

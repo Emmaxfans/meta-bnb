@@ -5,12 +5,14 @@ import '../pages/Footer.css';
 
 const Footer =() =>{
     return(
+<div className='container-fluid'>
+
         
-<div className='container-fluid bg-footer'>
+    <div className='bg-footer'>
     <div className='row pt-5'>
         <div className='col-lg-6 md-6 sm-6 footer-con1'>
             <div className='container meta-margin'>
-            <img className='' src='../images/meta.png' alt='footer-meta'/>
+            <img className='meta-footer1' src='../images/meta.png' alt='footer-meta'/>
             {/* <img className='footer-meta1' src='../images/footer-meta1.png' alt='footer-meta'/> */}
             </div>
 
@@ -18,9 +20,7 @@ const Footer =() =>{
             <img className='fb1' src='../images/fb.png' alt='fb'/>
             <img className='fb' src='../images/ig1.png' alt='fb'/>
             <img className='fb' src='../images/twitter.png' alt='fb'/>
-            </div>
-
-            
+            </div>   
 
         </div>
 
@@ -63,9 +63,11 @@ const Footer =() =>{
 </table>
 
         </div>
-        <p className='mt-3 meta-margin'>@ 2022 Metabnb</p>
+        <p className=' meta-margin'>@ 2022 Metabnb</p>
     </div>
 
+      
+</div>
 
 </div>
 

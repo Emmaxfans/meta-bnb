@@ -1,0 +1,282 @@
+
+
+.font-body{
+  font-family: "Red Rose";
+}
+
+.conx-1{
+  margin-top: 100px;
+}
+
+.three-pic{
+  width: 80%;
+  margin-left: 100px;
+}
+.metax{
+  padding: 70px 0px 0px 70px;
+}
+
+.metax h1{
+  color: #FFFFFF;
+  font-size: 48px;
+
+}
+
+.metax p{
+  color: #FFFFFF;
+  font-size: 24px;
+  width: 400px;
+
+}
+
+.conx{
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  /* width: 100%; */
+  margin-top: 50px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+.conx img{
+  width: 200px;
+  height: 40px;
+  /* margin-top: 30px; */
+}
+
+.conxx{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.conxx img{
+  margin-bottom: 20px;
+}
+
+.metaxx{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.home-heading {
+  margin-right: 20px;
+}
+.home-heading-h1 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  color: #434343;
+  margin-bottom: 30px;
+}
+
+.home-end {
+  padding-top: 50px;
+height: 774px;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+
+.heading_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  height: 400.08px;
+  
+}
+
+.heading-text {
+  color: #a02279;
+}
+.home-heading-p {
+  /* width: 70%; */
+  /* height: 102px; */
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #434343;
+  margin-bottom: 40px;
+}
+
+.search-bar {
+    display: flex;
+  width: 70%;
+  height: 54.08px;
+  /* padding-bottom: 10px; */
+  margin-bottom: 20px;
+}
+
+.input-search {
+  box-sizing: border-box;
+  background: rgba(247, 247, 247, 0.1);
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+  width: 100%;
+  height: 100%;
+  padding-right: 100px;
+  padding-left: 20px;
+}
+
+/* .search-bar-input {
+    box-sizing: border-box;
+    background: rgba(247, 247, 247, 0.1);
+border: 1px solid #A3A3A3;
+border-radius: 8px 0px 0px 8px;
+width: 60%;
+height: 54.08px;
+padding-right: 100px;
+} */
+
+.search-bar-a {
+    box-sizing: border-box;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+  width: 400px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  
+  height: 100%;
+}
+
+.heading-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-bar {
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+/* padding: 10px 10px; */
+
+margin-top: 40px;
+width: 100%;
+height: 70px;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+
+
+.home-end-text-div h1 {
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 500;
+/* margin-top: 20px; */
+font-size: 48px;
+line-height: 60px;
+background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+
+.home-end-button {
+  font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+background-color: white;
+line-height: 19px;
+text-align: center;
+text-decoration: none;
+color:#A02279;
+border-radius: 5px;
+padding: 13px 44px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .conx-1{
+    margin-top: 50px;
+  }
+
+  .home-heading-h1 {
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    color: #434343;
+    /* margin-bottom: 100px; */
+  }
+
+  .four-pic{
+    width: 100%;
+    /* text-align: center; */
+  }
+
+  .three-pic{
+    width: 80%;
+    margin-left: 20px;
+    /* margin-top: 50px; */
+    /* text-align: center; */
+  }
+
+  .conx{
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  }
+
+  .conxx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .metaxx{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+  .conxx img{
+    margin-bottom: 20px;
+  }
+
+  .metamask{
+    text-align: none;
+    width: 100px;
+  }
+  
+  .openbnb{
+    float: none;
+    width: 100px;
+  }
+
+  .conx img{
+    max-width: 200px;
+    width: 100px;
+    height: 30px;
+    /* margin-top: 30px; */
+  }
+
+
+  .metax{
+    /* width: 300px; */
+    padding: 0px 10px 0px 10px;
+    /* align-items: center; */
+  }
+
+  .metax p{
+    width: 100%;
+  }
+  
+}

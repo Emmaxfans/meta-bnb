@@ -1,10 +1,14 @@
+.row{
+    margin: 0 0;
+}
 .bg-footer{
     background: #000000;
     color: #f7f7f7;
 }
 
 .meta-margin{
-    margin-left: 70px;
+    /* margin-left: 10px; */
+    padding-left: 70px;
 }
 
 .footer-con1{
@@ -33,7 +37,7 @@
 }
 
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
 
     .meta-margin{
         margin-left: 5px;
@@ -49,6 +53,11 @@
         height: 30px;
     }
 
+    /* .meta-footer1{
+        width: 50px;
+        text-align: left;
+    } */
+
     .fb{
         height: 15px;
         margin-left: 15px;
@@ -61,6 +70,11 @@
     
     .footer-con2{
         width: 100%;
+    }
+
+    .meta-margin{
+        /* margin-left: 10px; */
+        padding-left: 1px;
     }
     
 }
