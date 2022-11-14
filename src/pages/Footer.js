@@ -63,7 +63,7 @@ const Footer =() =>{
 </table>
 
         </div>
-        <p className=' meta-margin'>@ 2022 Metabnb</p>
+        <p className=' meta-margin'>© 2022 Metabnb</p>
     </div>
 
       

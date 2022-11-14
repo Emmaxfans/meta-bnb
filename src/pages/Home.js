@@ -1,12 +1,12 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Body from './Body';
-// import meta from "../images/meta.png"
+import "../pages/Home.css"
 
 
 const Home =() =>{
     return(
-        <div className=''>
+        <div className='home'>
             <Navbar/>
             <Body/>
             <Footer/>

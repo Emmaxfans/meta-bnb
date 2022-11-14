@@ -1,5 +1,7 @@
 
-
+.home{
+  margin: 0;
+}
 .font-body{
   font-family: "Red Rose";
 }
@@ -138,17 +140,21 @@ height: 54.08px;
 padding-right: 100px;
 } */
 
+
 .search-bar-a {
-    box-sizing: border-box;
+  box-sizing: border-box;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
   border-radius: 0px 8px 8px 0px;
   width: 400px;
-  padding: 20px;
+  padding: 15px;
   text-decoration: none;
   text-align: center;
   color: white;
-  
   height: 100%;
+}
+
+a:hover{
+  color: black;
 }
 
 .heading-img {

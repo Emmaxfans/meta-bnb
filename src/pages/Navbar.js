@@ -1,5 +1,5 @@
 import '../pages/Navbar.css';
-// import { link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Navbar = () =>{
     return(
@@ -21,7 +21,7 @@ const Navbar = () =>{
     <a href='/' className="nav-link active text-dark fs-font" aria-current="page">Home</a>
   </li>
   <li className="nav-item px-3">
-  <a  href='/Login' className="nav-link fs-font text-dark">Place to stay</a>
+    <Link to='/place-to-stay' className="nav-link fs-font text-dark">Place to stay</Link>
   </li>
 
   <li className="nav-item px-3 signup2">
