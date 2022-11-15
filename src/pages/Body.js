@@ -8,8 +8,8 @@ const Body =() =>{
 
 <div className='row conx-1'>
 
-    <div className="col-lg-7 md-6 sm-6">
-     <div className="container home-heading">
+    <div className="col-lg-7 md-6 sm-6 homex">
+     <div className="home-heading">
        <h1 className="home-heading-h1">Rent a <span className="heading-text">Place</span> away from <span className="heading-text">Home</span> in the{" "}
          <span className="heading-text">Metaverse</span>
        </h1>

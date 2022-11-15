@@ -69,6 +69,17 @@
   justify-content: space-evenly;
 }
 
+
+.homex{
+  padding-left: 50px;
+  width: 700px;
+}
+
+.homex p{
+  width: 550px;
+  float: left;
+}
+
 .home-heading {
   margin-right: 20px;
 }
@@ -313,6 +324,16 @@ padding: 13px 44px;
 
   .search-bar{
     margin-bottom: 70px;
+  }
+
+  .homex{
+    padding-left: 20px;
+    width: 500px;
+  }
+
+  .homex p{
+    width: 320px;
+    float: none;
   }
   
 }
