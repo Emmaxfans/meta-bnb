@@ -18,34 +18,63 @@ const Navbar = () =>{
 <div className="collapse navbar-collapse nav-float" id="navbarNav">
 <ul className="navbar-nav">
   <li className="nav-item px-3">
-    <a href='/' className="nav-link active text-dark fs-font" aria-current="page">Home</a>
+    <Link to='/' className="nav-link active text-dark fs-font" aria-current="page">Home</Link>
   </li>
   <li className="nav-item px-3">
     <Link to='/place-to-stay' className="nav-link fs-font text-dark">Place to stay</Link>
   </li>
 
   <li className="nav-item px-3 signup2">
-  <a  href='/Sign-Up' className="nav-link fs-font text-dark">NFTs</a>
+  <a  href='/#' className="nav-link fs-font text-dark">NFTs</a>
 
   </li>
 
   <li className="nav-item px-3">
-    <a href='Sign-Up' className="nav-link text-dark">Community</a>
+    <a href='/#' className="nav-link text-dark">Community</a>
   </li>
 
-  <li className="nav-item px-3 btn-mobile">
-  <a href='Sign-Up' className="nav-link text-white"><button className='btn-connect'>Connect wallet</button></a>
+  <li className="nav-item  btn-conx">
+
+
+  {/* <!-- Button trigger modal */}
+
+<button type="button" class="btn btn-connect" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Connect wallet
+</button>
+
+{/* <!-- Modal --> */}
+
+<div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div className="modal-dialog">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="staticBackdropLabel">Connect Wallet</h5>
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Choose your preferrd wallet</p>
+      <a href="/#" className="btn-popup1"><img src='../images/metamask-connect.png' alt="texting" /></a>
+        <a href="/#" className="btn-popup1"><img src='../images/walletconnect.png' alt="texting" /></a>
+      </div>
+      {/* <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div> */}
+    </div>
+  </div>
+</div>
+
   </li>
 
  
 </ul>
 </div>
 
-<div className='navbar-collapse nav-float btn-float'>
-    {/* <li className="nav-item px-3"> */}
+{/* <div className='navbar-collapse nav-float btn-float'>
+    <li className="nav-item px-3">
     <a href='Sign-Up' className="nav-link text-white"><button className='btn-connect'>Connect wallet</button></a>
-  {/* </li> */}
-</div>
+  </li>
+</div> */}
 
 </div>
 </nav>

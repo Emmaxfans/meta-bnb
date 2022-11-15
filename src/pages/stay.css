@@ -39,7 +39,7 @@
   }
 
 
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 768px) {
 
     .conx1{
         display: grid;
