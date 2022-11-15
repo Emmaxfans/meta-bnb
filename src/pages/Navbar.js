@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () =>{
     return(
-<div className='container-fluid'>
+<div className='container-fluid navx'>
 <div>
 <nav className="navbar navbar-expand-lg navbar-light">
 <div className="container-fluid">
@@ -52,7 +52,7 @@ const Navbar = () =>{
         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>Choose your preferrd wallet</p>
+        <p>Choose your preferred wallet</p>
       <a href="/#" className="btn-popup1"><img src='../images/metamask-connect.png' alt="texting" /></a>
         <a href="/#" className="btn-popup1"><img src='../images/walletconnect.png' alt="texting" /></a>
       </div>

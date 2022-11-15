@@ -4,6 +4,8 @@
 }
 .font-body{
   font-family: "Red Rose";
+  margin: 0;
+  overflow: hidden;
 }
 
 .conx-1{
