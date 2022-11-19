@@ -1,0 +1,254 @@
+
+
+.login_page{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    /* fill: solid; */
+    
+}
+
+/* .warnemail:active .submit-sign{
+  background-color: #714DD9;
+} */
+
+.section-bg{
+  background-color: #F6FAFB;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+
+}
+
+.form_login_1{
+  background-color: #F6FAFB;
+  display: block;
+  margin: 0;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Login form section styling */
+
+.form-login{
+  width: 30rem;
+  margin: auto;
+}
+
+.form-login h1{
+    /* text-align: center; */
+    font: 1.563rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* login form styling */
+
+.login-form{
+    width: 464px;
+}
+
+/* section 2 styling */
+
+.loginimg-section{
+  display: flex;
+  flex-direction: row ;
+}
+
+.login-section2{
+    width: 45rem;
+    height: 100vh;
+    background: #714DD9;
+}
+
+.social_div{
+  justify-content: center;
+  text-align: center;
+}
+
+.google_login_img{
+  width: 3rem;
+  margin-right: 20px;
+}
+.facebook_login_img{
+  width: 3rem;
+  /* margin-right: 20px; */
+}
+
+.login_span{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login_social_img{
+  margin-top: 30px;
+}
+
+.login_p{
+  padding: 5px;
+
+}
+
+.login_hr{
+  /* display: inline-block; */
+  width: 100px;
+}
+
+
+/* Switch button styling */
+.header-text{
+  font-size: 1.563rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.login_signup_bottom{
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+/* login-form screen */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+*{padding: 0;margin: 0;
+  box-sizing: border-box
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee
+}
+.card{height: 380px;width: 350px;background-color: #fff;position: relative;box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);font-family: 'Poppins', sans-serif;border-radius: 10px;padding: 20px}
+.text{display: flex;justify-content: center;align-items: center;flex-direction: column;text-align: center}
+.text p{font-size: 13px;color: #bac4d4;font-weight: 700}
+.input-text{
+  position: relative;margin-top: 30px;
+}
+input[type="text"]{
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  border: 0.063rem solid #e0e3e9;
+  padding: 0 10px;
+  padding-left: 30px;
+  outline: 0;
+  font-size: 15px;
+}
+input[type="password"]{
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  border: 1px solid #e0e3e9;
+  padding: 0 10px;
+  padding-left: 30px;
+  padding-right: 27px;
+  outline: 0;
+}
+.fa-envelope{position: absolute;left: 10px;cursor:pointer;top: 15px}
+.fa-lock{position: absolute;left: 12px;top: 15px;cursor:pointer;font-size:15px}
+.input-text 
+
+.fa-eye-slash{position: absolute;right: 10px;top: 40px;font-size:15px;cursor:pointer}
+.fa-eye{position: absolute;right: 10px;top: 40px;font-size:15px;cursor:pointer}
+
+.buttons{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center}
+
+.buttons button{
+  height: 3rem;
+  width: 100%;
+  border: none;
+  background-color: #D3D0D9;
+  border-radius: 0.5rem;
+  font-size: 12px;outline: 0;
+  color: #fff;cursor: pointer;
+  transition: all 0.5s}
+
+.buttons button:hover{
+  background-color: #083c87;
+}
+
+.forgot{
+  margin-top: 10px;
+  font-size: 1rem;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.checkbox_p{
+  margin-left: 0.625rem;
+  /* padding-top: 15px; */
+}
+  .forgot a{
+    text-decoration:none
+  }
+  .warning{
+    border: 1px solid red !important;
+    /* font-size: 20px; */
+  }
+  .type_password{
+    border: 1px solid red !important;
+  }
+
+  .login_password_reset{
+    color: #714DD9;
+    font-size: 1rem;
+  }
+
+  :link{
+    color: #714DD9;
+    text-decoration: none;
+  }
+
+  .sign_link{
+    color: #714DD9;
+  }
+
+
+@media screen and (max-width: 786px) {
+
+  .login_page{
+    height: 100vh;
+    margin: 0;
+}
+
+  .login-section2{
+    display: none;
+  }
+
+  .form-login{
+    width: 20.875rem;
+    margin: auto;
+  }
+
+  .buttons button{
+    /* height: 3rem; */
+    /* width: 100%; */
+    /* border: none; */
+    background-color: #714DD9;
+    /* border-radius: 0.5rem; */
+    /* font-size: 12px;outline: 0; */
+    /* color: #fff;cursor: pointer; */
+    /* transition: all 0.5s} */
+  }
+}
+
+
+

@@ -30,7 +30,7 @@ const Navbar = () =>{
   </li>
 
   <li className="nav-item px-3">
-    <a href='/#' className="nav-link text-dark">Community</a>
+    <Link to='/login' className="nav-link text-dark">Community</Link>
   </li>
 
   <li className="nav-item  btn-conx">
