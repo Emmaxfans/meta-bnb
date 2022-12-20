@@ -135,7 +135,7 @@
 .input-text{
   position: relative;margin-top: 30px;
 }
-input[type="text"]{
+input[type="texts"]{
   height: 45px;
   width: 100%;
   border: none;

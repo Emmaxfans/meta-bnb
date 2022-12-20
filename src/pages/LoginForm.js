@@ -71,13 +71,13 @@ const LoginForm = () =>{
 <form onSubmit={submitForm} className='form-login'>
 
 
-<div className="input-text">
+<div className="input-texts">
   <label>Email</label>
-    <input type="text" className={` ${warnemail ? "warning active-input1" : "" }`} placeholder="Enter your email" value={inputtext.email} onChange={inputEvent} name="email" />
+    <input type="texts" className={` ${warnemail ? "warning active-input1" : "" }`} placeholder="Enter your email" value={inputtext.email} onChange={inputEvent} name="email" />
     {/* <i className="fa fa-envelope"></i> */}
 
 </div>
-<div className="input-text">
+<div className="input-texts">
   <label>Password</label>
     <input type={password} className={` ${warnpassword ? "warning" : "" } ${type ? "type_password" : "" }`} placeholder="Enter your password" value={inputtext.password} onChange={inputEvent} name="password" />
     {/* <i className="fa fa-lock"></i> */}
