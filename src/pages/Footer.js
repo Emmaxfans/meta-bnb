@@ -13,7 +13,6 @@ const Footer =() =>{
         <div className='col-lg-6 md-6 sm-6 footer-con1'>
             <div className='container meta-margin'>
             <img className='meta-footer1' src='../images/meta.png' alt='footer-meta'/>
-            {/* <img className='footer-meta1' src='../images/footer-meta1.png' alt='footer-meta'/> */}
             </div>
 
             <div className='container mt-5 meta-margin'>

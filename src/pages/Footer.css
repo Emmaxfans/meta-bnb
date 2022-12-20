@@ -4,6 +4,10 @@
     overflow: hidden; 
 }
 
+.container{
+    background-color: black;
+}
+
 .row{
     margin: 0 0;
 }

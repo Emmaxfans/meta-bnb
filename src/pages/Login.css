@@ -123,11 +123,11 @@
   box-sizing: border-box
 }
 .container{
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eee
+  /* background-color: #eee; */
 }
 .card{height: 380px;width: 350px;background-color: #fff;position: relative;box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);font-family: 'Poppins', sans-serif;border-radius: 10px;padding: 20px}
 .text{display: flex;justify-content: center;align-items: center;flex-direction: column;text-align: center}
