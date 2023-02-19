@@ -1,4 +1,5 @@
-import '../pages/Navbar.css';
+import '../component/navbar.css';
+import Connect from '../component/Connect';
 import { Link } from 'react-router-dom'
 
 const Navbar = () =>{
@@ -30,7 +31,7 @@ const Navbar = () =>{
   </li>
 
   <li className="nav-item px-3">
-    <Link to='/login' className="nav-link text-dark">Community</Link>
+    <Link to='/#' className="nav-link text-dark">Community</Link>
   </li>
 
   <li className="nav-item  btn-conx">
@@ -41,10 +42,10 @@ const Navbar = () =>{
 <button type="button" class="btn btn-connect" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
   Connect wallet
 </button>
-
+<Connect/>
 {/* <!-- Modal --> */}
 
-<div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+{/* <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div className="modal-dialog">
     <div className="modal-content">
       <div className="modal-header">
@@ -56,25 +57,15 @@ const Navbar = () =>{
       <a href="/#" className="btn-popup1"><img src='../images/metamask-connect.png' alt="texting" /></a>
         <a href="/#" className="btn-popup1"><img src='../images/walletconnect.png' alt="texting" /></a>
       </div>
-      {/* <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div> */}
     </div>
   </div>
-</div>
+</div> */}
 
   </li>
 
  
 </ul>
 </div>
-
-{/* <div className='navbar-collapse nav-float btn-float'>
-    <li className="nav-item px-3">
-    <a href='Sign-Up' className="nav-link text-white"><button className='btn-connect'>Connect wallet</button></a>
-  </li>
-</div> */}
 
 </div>
 </nav>

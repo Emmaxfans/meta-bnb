@@ -1,6 +1,6 @@
 import '../pages/stay.css'
-import Footer from './Footer';
-import Navbar from './Navbar';
+import Footer from '../component/Footer';
+import Navbar from '../component/Navbar';
 
 const Place =() =>{
     return(

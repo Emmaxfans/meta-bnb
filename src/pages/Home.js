@@ -1,7 +1,7 @@
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "../component/Footer";
+import Navbar from "../component/Navbar";
 import Body from './Body';
-import "../pages/Home.css"
+import "../pages/body.css"
 
 
 const Home =() =>{

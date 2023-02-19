@@ -1,7 +1,4 @@
-
-
-import '../pages/Footer.css';
-// import fb from "../images/fb.png";
+import '../component/footer.css';
 
 const Footer =() =>{
     return(

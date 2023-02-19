@@ -1,6 +1,4 @@
-// import react from 'react'
-
-import '../pages/Home.css'
+import '../pages/body.css'
 
 const Body =() =>{
     return(
