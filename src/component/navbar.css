@@ -70,6 +70,10 @@
 
 @media screen and (max-width: 768px){
 
+    .nav{
+        flex-wrap: none;
+    }
+
     .navbar-brand{
         margin-left: 0px;
     }

@@ -5,12 +5,10 @@ import { Link } from 'react-router-dom'
 const Navbar = () =>{
     return(
 <div className='container-fluid navx'>
-<div>
 <nav className="navbar navbar-expand-lg navbar-light">
 <div className="container-fluid">
 <a className="navbar-brand text-white" href="/#">   
 <img className='img1a img-fluid' src='./images/meta-nav.png' alt='Metabnb-nav'/>
-{/* <img className='meta-pic' src="./images/metabnb.png" alt="metabnb" /> */}
 </a>
 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span className="navbar-toggler-icon"></span>
@@ -43,26 +41,7 @@ const Navbar = () =>{
   Connect wallet
 </button>
 <Connect/>
-{/* <!-- Modal --> */}
-
-{/* <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div className="modal-dialog">
-    <div className="modal-content">
-      <div className="modal-header">
-        <h5 className="modal-title" id="staticBackdropLabel">Connect Wallet</h5>
-        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Choose your preferred wallet</p>
-      <a href="/#" className="btn-popup1"><img src='../images/metamask-connect.png' alt="texting" /></a>
-        <a href="/#" className="btn-popup1"><img src='../images/walletconnect.png' alt="texting" /></a>
-      </div>
-    </div>
-  </div>
-</div> */}
-
   </li>
-
  
 </ul>
 </div>
@@ -71,9 +50,6 @@ const Navbar = () =>{
 </nav>
 
 </div>
-
-</div>
-    )
-};
+ )};
 
 export default Navbar

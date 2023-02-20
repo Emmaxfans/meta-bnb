@@ -2,10 +2,20 @@
 .home{
   margin: 0;
 }
+
+/* body{
+  opacity: 1;
+      transition: opacity 3s;
+} */
 .font-body{
   font-family: "Red Rose";
   margin: 0;
   overflow: hidden;
+}
+
+.divv{
+  display: inline-flex; 
+  grid-template-columns: 1fr 1fr 1fr 1fr
 }
 
 .conx-1{
@@ -13,7 +23,10 @@
 }
 
 .three-pic{
-  width: 80%;
+  justify-content: center;
+  display: block;
+  /* width: 80%; */
+  width: 500px;
   margin-left: 100px;
 }
 .metax{
@@ -59,6 +72,7 @@
 }
 
 .conxx img{
+  width: 250px;
   margin-bottom: 20px;
 }
 
@@ -72,11 +86,11 @@
 
 .homex{
   padding-left: 50px;
-  width: 700px;
+  /* width: 700px; */
 }
 
 .homex p{
-  width: 550px;
+  /* width: 550px; */
   float: left;
 }
 
@@ -93,8 +107,8 @@
 }
 
 .home-end {
-  padding-top: 50px;
-height: 774px;
+padding-top: 50px;
+height: 550px;
 background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
 
@@ -126,33 +140,23 @@ background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 
 .search-bar {
     display: flex;
-  width: 70%;
+    width: 70%;
   height: 54.08px;
-  /* padding-bottom: 10px; */
   margin-bottom: 20px;
 }
 
-.input-search {
+.search-bar a{
+  font-size: 20px;
+}
+
+.search-bar  input{
   box-sizing: border-box;
   background: rgba(247, 247, 247, 0.1);
   border: 1px solid #a3a3a3;
   border-radius: 8px 0px 0px 8px;
   width: 300px;
-  height: 100%;
-  padding-right: 100px;
-  padding-left: 20px;
+  text-align: center;
 }
-
-/* .search-bar-input {
-    box-sizing: border-box;
-    background: rgba(247, 247, 247, 0.1);
-border: 1px solid #A3A3A3;
-border-radius: 8px 0px 0px 8px;
-width: 60%;
-height: 54.08px;
-padding-right: 100px;
-} */
-
 
 .search-bar-a {
   box-sizing: border-box;
@@ -225,6 +229,7 @@ padding: 13px 44px;
     margin-top: 50px;
   }
 
+
   .home-heading-h1 {
     font-family: "Red Rose";
     font-style: normal;
@@ -236,14 +241,13 @@ padding: 13px 44px;
 
   .four-pic{
     width: 100%;
-    /* text-align: center; */
   }
 
   .three-pic{
-    width: 80%;
+    display: none;
+    justify-content: center;
+    width: 300px;
     margin-left: 20px;
-    /* margin-top: 50px; */
-    /* text-align: center; */
   }
 
   .conx{
@@ -260,11 +264,11 @@ padding: 13px 44px;
     justify-content: space-evenly;
   }
 
-  .metaxx{
+  /* .metaxx{
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
-    }
+    } */
 
   .conxx img{
     margin-bottom: 20px;
@@ -284,45 +288,39 @@ padding: 13px 44px;
     max-width: 200px;
     width: 100px;
     height: 25px;
-    /* margin-top: 30px; */
   }
-
 
   .metax{
-    /* width: 300px; */
-    padding: 0px 10px 0px 10px;
-    /* align-items: center; */
+    padding: 0 0 0 10px;
   }
+
+  .home-end {
+    height: 400px;
+    }
+
 
   .metax p{
     width: 100%;
   }
 
-  .input-search {
-    /* box-sizing: border-box; */
-    /* background: rgba(247, 247, 247, 0.1); */
-    /* border: 1px solid #a3a3a3; */
-    /* border-radius: 8px 0px 0px 8px; */
-    width: 250px;
-    /* height: 250px; */
-    /* padding-right: 100px; */
-    padding-left: 20px;
-  }
 
-
-  .search-bar-a {
+  .search-bar a{
     box-sizing: border-box;
-    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
     border-radius: 0px 8px 8px 0px;
-    width: 150px;
+    width: 250px;
     padding: 15px 20px;
-    text-decoration: none;
-    text-align: center;
     color: white;
     height: 100%;
   }
 
+.search-bar input{
+  width: 300px;
+  font-size: 20px;
+
+}
+
   .search-bar{
+    width: 100%;
     margin-bottom: 70px;
   }
 
@@ -337,3 +335,69 @@ padding: 13px 44px;
   }
   
 }
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* Styles for Mini iPad */
+
+  .conxx img{
+    width: 170px;
+  }
+
+  .search-bar input{
+    width: 300px;
+  }
+
+  .search-bar a{
+    width: 150px;
+  }
+
+  
+}
+
+@media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* Styles for Mini iPad Air */
+
+  .search-bar{
+    width: 100%;
+    justify-content: left;
+    margin-bottom: 100px;
+  }
+
+  .search-bar input{
+    font-size: 25px;
+  }
+
+  .four-pic{
+    display: block;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .three-pic{
+    display: none;
+  }
+
+  .metax{
+    padding-top: 0px;
+  }
+
+  .home-end{
+    height: 400px;
+  }
+}
+
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 840px) and (max-device-height: 1792px) and (-webkit-device-pixel-ratio: 2.25), (min-device-width: 280px) and (max-device-width: 840px) and (max-device-height: 1792px) and (-webkit-device-pixel-ratio: 2.625) {
+  /* Styles for Samsung Fold go here */
+
+  .img1a{
+    padding: 0;
+    width: 50px;
+  }
+
+  .home-heading-h1{
+    font-size: 20px;
+  }
+}
+
