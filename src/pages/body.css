@@ -126,13 +126,14 @@ background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 .heading-text {
   color: #a02279;
 }
-.home-heading-p {
-  /* width: 70%; */
-  /* height: 102px; */
+
+.homex p{
+  width: 70%;
+  height: 102px;
   font-family: "Red Rose";
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 35px;
   color: #434343;
   margin-bottom: 40px;
@@ -330,8 +331,9 @@ padding: 13px 44px;
   }
 
   .homex p{
-    width: 320px;
-    float: none;
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 100px;
   }
   
 }
@@ -358,6 +360,10 @@ padding: 13px 44px;
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (-webkit-min-device-pixel-ratio: 1) {
   /* Styles for Mini iPad Air */
 
+  .homex p{
+    font-size: 25px;
+  }
+
   .search-bar{
     width: 100%;
     justify-content: left;
@@ -372,6 +378,7 @@ padding: 13px 44px;
     display: block;
     margin: auto;
     justify-content: center;
+    width: 100%;
   }
 
   .three-pic{
