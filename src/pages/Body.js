@@ -78,12 +78,12 @@ const Body =() =>{
         cards which are traded as NFTs. These NFTs gives our customer access
         to loads of our exclusive services.
       </p>
-      <a className="home-end-button" href="/#"> Learn more </a>
+      <button className="home-end-button">Learn more</button>
         </div>
 
-        <div className=''>
-       <img className='three-pic' src='../images/three-pic.png' alt='three-pic' />
-    </div>
+        <div className='con-pic'>
+          <img className='three-pic img-fluid' src='../images/three-pic.png' alt='three-pic' />
+        </div>
 
     </div>
   </div>

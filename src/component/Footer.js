@@ -23,7 +23,7 @@ const Footer =() =>{
         <div className='col-lg-6 md-6 sm-6 footer-con2'>
         <table className="table table table-borderless  text-white">
         <thead className="">
-<tr cl>
+<tr>
 <th scope="col" className=''>Community</th>
 <th scope="col">Places</th>
 <th scope="col">About Us</th>
