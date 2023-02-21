@@ -10,7 +10,7 @@ const Body =() =>{
 
 <div className='row conx-1'>
 
-    <div className="col-lg-6 md-3 sm-6 homex">
+    <div className="col-lg-6 md-6 sm-6 homex">
      <div className="home-heading">
        <h1 className="home-heading-h1">Rent a <span className="heading-text">Place</span> away from <span className="heading-text">Home</span> in the{" "}
          <span className="heading-text">Metaverse</span>
@@ -26,7 +26,7 @@ const Body =() =>{
      </div> 
 
 
-      <div className='col-lg-6 md-3 sm-6'>
+      <div className='col-lg-6 md-6 sm-6'>
 
       <img className='four-pic' src='../images/four-pic.png' alt='four-pic' />
       </div> 
@@ -81,11 +81,9 @@ const Body =() =>{
       <a className="home-end-button" href="/#"> Learn more </a>
         </div>
 
+        <div className=''>
+       <img className='three-pic' src='../images/three-pic.png' alt='three-pic' />
     </div>
-
-    <div className=''>
-
-        <img className='three-pic' src='../images/three-pic.png' alt='three-pic' />
 
     </div>
   </div>

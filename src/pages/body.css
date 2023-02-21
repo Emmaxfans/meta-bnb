@@ -23,11 +23,11 @@
 }
 
 .three-pic{
-  justify-content: center;
-  display: block;
+  display: flex;
   /* width: 80%; */
-  width: 500px;
-  margin-left: 100px;
+  width: 300px;
+  height: 200px;
+  /* margin-left: 100px; */
 }
 .metax{
   padding: 70px 0px 0px 70px;
@@ -77,8 +77,8 @@
 }
 
 .metaxx{
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
   /* align-items: center; */
   justify-content: space-evenly;
 }
@@ -342,6 +342,10 @@ padding: 13px 44px;
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   /* Styles for Mini iPad */
 
+  .homex{
+    width: 100%;
+  }
+
   .conxx img{
     width: 170px;
   }
@@ -360,8 +364,13 @@ padding: 13px 44px;
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (-webkit-min-device-pixel-ratio: 1) {
   /* Styles for Mini iPad Air */
 
+  .homex{
+    width: 100%;
+  }
+
   .homex p{
-    font-size: 25px;
+    font-size: 30px;
+    width: 100%;
   }
 
   .search-bar{
@@ -386,7 +395,12 @@ padding: 13px 44px;
   }
 
   .metax{
+    width: 100%;
     padding-top: 0px;
+  }
+
+  .metax p{
+    width: 100%;
   }
 
   .home-end{
