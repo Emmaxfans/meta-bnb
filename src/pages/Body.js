@@ -1,10 +1,23 @@
 import '../pages/body.css'
 
-const Body =() =>{
+// body Images
+import fourpic from '../Assets/images/four-pic.png'
+import mbtoken from '../Assets/images/mbtoken.png'
+import metamask from '../Assets/images/metamaskbnb.png'
+import openbnb from '../Assets/images/openbnb.png'
+import frame1 from '../Assets/images/frame 1.png'
+import frame2 from '../Assets/images/frame 2.png'
+import frame3 from '../Assets/images/frame 3.png'
+import frame4 from '../Assets/images/frame 4.png'
+import frame5 from '../Assets/images/frame 5.png'
+import frame6 from '../Assets/images/frame 6.png'
+import frame7 from '../Assets/images/frame 7.png'
+import frame8 from '../Assets/images/frame 8.png'
+import threepic from '../Assets/images/three-pic.png'
 
-  // window.addEventListener('load', function() {
-  //   document.body.style.opacity = 0.5;
-  // })
+
+
+const Body =() =>{
     return(
 <div className='container-fluid font-body'>
 
@@ -28,17 +41,17 @@ const Body =() =>{
 
       <div className='col-lg-6 md-6 sm-6'>
 
-      <img className='four-pic' src='../images/four-pic.png' alt='four-pic' />
+      <img className='four-pic' src={fourpic} alt='four-pic' />
       </div> 
     </div>
 
     <div className='conx'>
         
-            <img className='mb img-fluid' src='../images/mbtoken.png' alt='mbtoken' />
+            <img className='mb img-fluid' src={mbtoken} alt='mbtoken' />
 
-            <img className='img-fluid' src='../images/metamaskbnb.png' alt='metamask' />
+            <img className='img-fluid' src={metamask} alt='metamask' />
 
-            <img className='img-fluid' src='../images/openbnb.png' alt='opensea' />
+            <img className='img-fluid' src={openbnb} alt='opensea' />
     </div>
 
     <div className=''>
@@ -46,24 +59,24 @@ const Body =() =>{
         
         <div className='container-fluid conxx'>
             
-            <img className='mb' src='../images/frame 1.png' alt='frame1' />
+            <img className='mb' src={frame1} alt='frame1' />
                 
-            <img className='mb' src='../images/frame 2.png' alt='frame1' /> 
+            <img className='mb' src={frame2} alt='frame1' /> 
             
-            <img className='mb' src='../images/frame 3.png' alt='frame1' />
+            <img className='mb' src={frame3} alt='frame1' />
 
-            <img className='mb' src='../images/frame 4.png' alt='frame1' />
+            <img className='mb' src={frame4} alt='frame1' />
      </div>
 
      <div className='container-fluid conxx'>
           
-<img className='mb' src='../images/frame 5.png' alt='frame1' />
+<img className='mb' src={frame5} alt='frame1' />
 
-<img className='mb' src='../images/frame 6.png' alt='frame1' />
+<img className='mb' src={frame6} alt='frame1' />
 
-<img className='mb' src='../images/frame 7.png' alt='frame1' />
+<img className='mb' src={frame7} alt='frame1' />
 
-<img className='mb' src='../images/frame 8.png' alt='frame1' />
+<img className='mb' src={frame8} alt='frame1' />
 
 </div>
     </div>
@@ -82,7 +95,7 @@ const Body =() =>{
         </div>
 
         <div className='con-pic'>
-          <img className='three-pic img-fluid' src='../images/three-pic.png' alt='three-pic' />
+          <img className='three-pic img-fluid' src={threepic} alt='three-pic' />
         </div>
 
     </div>
