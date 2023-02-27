@@ -1,7 +1,7 @@
 import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
 import Body from './Body';
-import "../pages/body.css"
+import "../Assets/style/body.css"
 
 
 const Home =() =>{

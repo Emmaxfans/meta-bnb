@@ -1,5 +1,11 @@
 import '../component/footer.css';
 
+// Footer images
+import meta2 from '../Assets/images/meta.png'
+import fb from '../Assets/images/fb.png'
+import ig from '../Assets/images/ig.png'
+import twitter from '../Assets/images/twitter.png'
+
 const Footer =() =>{
     return(
 <div className='container-fluid footerxx'>
@@ -9,13 +15,13 @@ const Footer =() =>{
     <div className='row pt-5'>
         <div className='col-lg-6 md-6 sm-6 footer-con1'>
             <div className='container meta-margin'>
-            <img className='meta-footer1' src='../images/meta.png' alt='footer-meta'/>
+            <img className='meta-footer1' src={meta2} alt='footer-meta'/>
             </div>
 
             <div className='container mt-5 meta-margin'>
-            <img className='fb1' src='../images/fb.png' alt='fb'/>
-            <img className='fb' src='../images/ig1.png' alt='fb'/>
-            <img className='fb' src='../images/twitter.png' alt='fb'/>
+            <img className='fb1' src={fb} alt='fb'/>
+            <img className='fb' src={ig} alt='fb'/>
+            <img className='fb' src={twitter} alt='fb'/>
             </div>   
 
         </div>

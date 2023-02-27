@@ -1,4 +1,4 @@
-import '../pages/body.css'
+import '../Assets/style/body.css'
 
 // body Images
 import fourpic from '../Assets/images/four-pic.png'

@@ -21,16 +21,16 @@ const Navbar = () =>{
     <Link to='/' className="nav-link active text-dark fs-font" aria-current="page">Home</Link>
   </li>
   <li className="nav-item px-3">
-    <Link to='/place-to-stay' className="nav-link fs-font text-dark">Place to stay</Link>
+    <Link to='/' className="nav-link fs-font text-dark">Place to stay</Link>
   </li>
 
   <li className="nav-item px-3 signup2">
-  <a  href='/#' className="nav-link fs-font text-dark">NFTs</a>
+  <a  href='/nft' className="nav-link fs-font text-dark">NFTs</a>
 
   </li>
 
   <li className="nav-item px-3">
-    <Link to='/#' className="nav-link text-dark">Community</Link>
+    <Link to='/' className="nav-link text-dark">Community</Link>
   </li>
 
   <li className="nav-item  btn-conx">

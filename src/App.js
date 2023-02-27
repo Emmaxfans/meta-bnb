@@ -1,7 +1,7 @@
 // import './App.css';
 import { BrowserRouter as Router, Routes, Route } from  "react-router-dom";
-import Home from './pages/Home';
-import Place from './pages/Place';
+import NFT from "./pages/NFT";
+import Home from "./pages/Home";
 
 export const App =() => {
   return (
@@ -10,7 +10,7 @@ export const App =() => {
       <Routes>
 
       <Route path='/' element={<Home />} />
-      <Route path='/place-to-stay' element={<Place />} />
+      <Route path='/nft' element={<NFT />} />
 
       </Routes>
       </Router>
